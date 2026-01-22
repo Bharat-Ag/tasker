@@ -80,9 +80,6 @@ export default function Home() {
       setGreeting("Good Evening");
       setPlanTitle("Today's Work Done:");
       setIsEvening(true);
-    } else if (hour >= 12) {
-      setGreeting("Good Afternoon");
-      setPlanTitle("Today's Work Plan:");
     } else {
       setGreeting("Good Morning");
       setPlanTitle("Today's Work Plan:");
